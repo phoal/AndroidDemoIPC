@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+        android:id="@+id/cam_item"
+        android:title="string"
+        android:icon="@android:drawable/ic_menu_camera"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/download"
+        android:title="string"
+        android:icon="@android:drawable/ic_menu_upload"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/delete"
+        android:title="Delete All"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/asynctask"
+        android:title="@string/async_task" />
+    <item
+        android:id="@+id/started_service"
+        android:title="@string/started_service" />
+    <item
+        android:id="@+id/bound_service"
+        android:title="@string/bound_service" />
+    <item
+        android:id="@+id/aidl_sync1"
+        android:title="@string/aidl_sync" />
+    <item
+        android:id="@+id/aidl_async1"
+        android:title="@string/aidl_async" />
+</menu>

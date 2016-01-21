@@ -1,0 +1,40 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Skin Check</string>
+    <string name="download_images_activity">Reference</string>
+    <string name="weather_activitiy">Weather</string>
+    <string name="download_and_display_images">Download and Display Image(s)</string>
+    <string name="add_url">Add URL</string>
+    <string name="enter_url">Enter URL ..or Use Default URL</string>
+    <string name="clear_directory">Delete Downloaded Image(s)</string>
+    <string name="defaultURL">http://www.dre.vanderbilt.edu/~schmidt/robot.png;http://www.dre.vanderbilt.edu/~schmidt/ka.png</string>
+    <string name="detailed_picture_view_desc_string">description</string>
+    <string name="swipe_activity">SwipeListDisplay</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="aidl_sync">aidl_SYNC_service</string>
+    <string name="aidl_async">aidl_ASYNC_service</string>
+    <string name="x">x</string>
+    <string name="async_task">AsyncTask</string>
+    <string name="started_service">Started Service</string>
+    <string name="bound_service">Bound Service</string>
+
+    <string name="title_activity_weather_parser">WeatherParser</string>
+    <string name="query">City name or Country code</string>
+    <string name="errinfo">Last Error Message. (N.B: No internet connection or a slow connection will not time out for at least 60 sec):</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+    <!-- Windspeed formats -->
+    <!-- Wind in mph [CHAR LIMIT=25] -->
+    <string name="format_wind_mph">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g></string>
+    <!-- Wind in kph [CHAR LIMIT=25] -->
+    <string name="format_wind_kmh">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+
+    <!-- Pressure format CHAR LIMIT=25] -->
+    <string name="format_pressure">Pressure: <xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+
+    <!-- Humidity format CHAR LIMIT=25]-->
+    <string name="format_humidity">Humidity: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+    <string name="weatherButton">Go</string>
+</resources>
