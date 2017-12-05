@@ -1,4 +1,4 @@
-**AndroidDemoIPC**
+**Android Demo IPC**
 
 **A compact demo app which unifies my study of programming Android Services offered by Vanderbilt University**
 - Uses the Bridge Pattern to swap between Android frameworks.
